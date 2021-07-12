@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Title snapshot should render correct snapshot for archivedListItem 1`] = `
+<Text
+  style={
+    Object {
+      "color": "black",
+      "fontSize": 32,
+      "marginBottom": 20,
+    }
+  }
+>
+  testText
+</Text>
+`;

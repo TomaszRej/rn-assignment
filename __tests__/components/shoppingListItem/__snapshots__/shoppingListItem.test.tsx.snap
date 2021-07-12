@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingListItem ShoppingListItem snapshots should render correct snapshot for archivedListItem 1`] = `
+Array [
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#ddd",
+        "borderColor": "#ccc",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "marginHorizontal": 16,
+        "marginVertical": 8,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 32,
+          "marginBottom": 20,
+        }
+      }
+    >
+      Test Name
+    </Text>
+    <View
+      style={
+        Object {
+          "borderRadius": 10,
+          "overflow": "hidden",
+          "paddingHorizontal": 3,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={Object {}}
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "margin": 8,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#ee34dd",
+                },
+              ]
+            }
+          >
+            Unarchive List
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  ",",
+]
+`;
+
+exports[`ShoppingListItem ShoppingListItem snapshots should render correct snapshot for unarchivedListItem 1`] = `
+Array [
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#ddd",
+        "borderColor": "#ccc",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "marginHorizontal": 16,
+        "marginVertical": 8,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 32,
+          "marginBottom": 20,
+        }
+      }
+    >
+      Test Name
+    </Text>
+    <View
+      style={
+        Object {
+          "borderRadius": 10,
+          "overflow": "hidden",
+          "paddingHorizontal": 3,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={Object {}}
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "margin": 8,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#ee34dd",
+                },
+              ]
+            }
+          >
+            Archive List
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  ",",
+]
+`;
